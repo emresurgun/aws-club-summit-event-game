@@ -2,7 +2,6 @@
  * Uygulama ilk basladiginda varsayilan admin kullanicisi olusturur.
  * Production'da bu sifreyi degistir.
  */
-//TODO şifreyi değiştirmeyi unutma
 package com.awsokanclub.GameAdmin.config;
 
 import com.awsokanclub.GameAdmin.model.AdminUser;
@@ -35,7 +34,7 @@ public class DataInitializer implements CommandLineRunner {
         if (adminUserRepository.findByUsername(HOST_USERNAME).isEmpty()) {
             AdminUser host = AdminUser.builder()
                     .username(HOST_USERNAME)
-                    .password(passwordEncoder.encode("PASSWORD"))
+                    .password(passwordEncoder.encode(PASSWORD))
                     .role("HOST")
                     .build();
             adminUserRepository.save(host);
