@@ -110,7 +110,7 @@ Game ends (GAME_FINISHED) → results saved to PostgreSQL
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/your-username/Online_Test_Platform.git
+git clone https://github.com/emresurgun/Online_Test_Platform.git
 cd Online_Test_Platform
 ```
 
