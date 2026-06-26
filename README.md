@@ -110,8 +110,8 @@ Game ends (GAME_FINISHED) → results saved to PostgreSQL
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/emresurgun/Online_Test_Platform.git
-cd Online_Test_Platform
+git clone https://github.com/emresurgun/aws-club-summit-event-game.git
+cd aws-club-summit-event-game
 ```
 
 **2. Build the backend JARs:**
