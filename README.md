@@ -16,7 +16,7 @@ This platform was successfully used in production at a live event with simultane
 
 Most quiz platforms (Kahoot, Mentimeter, etc.) are third-party SaaS tools with limited customization, branding restrictions, and no control over data. The goal of this project was to build a fully owned, customizable alternative that the club could deploy, modify, and extend for any event format.
 
-The result is a production-ready platform with a dedicated game engine, admin panel, host screen, and player interface.
+The result is a event-ready platform with a dedicated game engine, admin panel, host screen, and player interface.
 
 ---
 
